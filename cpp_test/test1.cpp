@@ -28,6 +28,7 @@ int main(){
         .mul = mul,
     };
     res = res.mul(a, b);
+    printf("Hello");
     //res.mul(a, b);
     for(int i=0; i<5; ++i){
         printf("%d ", a.values[i]);
